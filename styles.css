@@ -1,0 +1,164 @@
+/* styles.css */
+
+/* Container styling */
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Title styling */
+  h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  /* Product list container */
+  #product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Product card styling */
+  .product {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Button styling */
+  .add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .item-all {
+    background: #fff;
+    margin-top: 5%;
+  }
+
+  .cart-list {
+    display: flex;
+  }
+
+  .total-item {
+    display: flex;
+  }
+
+  .cart-item {
+    background: #e5dfdf;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-style: dotted;
+    border-color: blue;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .cart-item h2 {
+    text-align: center;
+  }
+
+  .cart-item #cart {
+    text-align: center;
+  }
+
+  .subtotal{
+    background: #e5dfdf;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-style: dotted;
+    border-color: blue;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .subtotal h2 {
+    text-align: center;
+  }
+
+  .subtotal #cart-subtotal {
+    text-align: center;
+  }
+
+  .total-promo {
+    background: #e5dfdf;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 95%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-style: dotted;
+    border-color: blue;
+  }
+
+  .total-promo h2 {
+    text-align: center;
+  }  
+
+  .total-promo input {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .total-promo #discount{
+    text-align: center;
+  }
+
+  .total-list{
+    background: #e5dfdf;
+    width: 95%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-style: dotted;
+    border-color: blue;
+  }
+
+
+  .total-list #cart-total {
+    text-align: center;
+  }
+
+  .total-list h2 {
+    text-align: center;
+  }
+  

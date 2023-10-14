@@ -60,9 +60,9 @@ function displayCart() {
     const promoData = promo.find((code) => code.label === promoCode);
     if (promoData) {
       total *= (1 - promoData.value);
-      diskonTampil.textContent = `Discount: ${promoData.value * 100}%`;
+      diskonTampil.textContent = `Selamat Anda Mendapatkan Discount: ${promoData.value * 100}%`;
     } else {
-      diskonTampil.textContent = "Invalid Promo Code";
+      diskonTampil.textContent = "Kode Promo Invalid";
     }
   } else {
     diskonTampil.textContent = "-";
